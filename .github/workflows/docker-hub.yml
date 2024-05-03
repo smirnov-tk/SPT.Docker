@@ -14,8 +14,8 @@ on:
     types: [published]
 
 env:
-  REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  REGISTRY: docker.io
+  IMAGE_NAME: jeronyson/spt-aki
 
 jobs:
   push_to_registry:
